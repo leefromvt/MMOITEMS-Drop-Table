@@ -44,7 +44,7 @@ blocks:
             disable-silk-touch: true
             items:
                 MATERIAL:
-                    SILVER_INGOT: 5,1-4,0
+                    SILVER_INGOT: 5,1-2,0
     LAPIS_ORE:
         rare-lapis:
             coef: 2
@@ -60,25 +60,50 @@ blocks:
                 CONSUMABLE:
                     SOULBINDER3: 2,1,0
                 MATERIAL:
-                    ENCHANTEDNETHERITE: 3,1,0
-                    HARDENEDGOLD: 5,1-2,0
+                    ENCHANTEDNETHERITE: 2,1,0
+                    HARDENEDGOLD: 6,1-3,0
     REDSTONE_ORE:
         rare-redstone:
             coef: 2
             disable-silk-touch: true
             items:
                 MATERIAL:
-                    FIRE_ESSENCE: 4,1-2,0
+                    FIRE_ESSENCE: 5,1-2,0
                     WEAPON_POWDER: 3,1,0
+    GRASS_BLOCK:
+        grass-block:
+            coef: 2
+            disable-silk-touch: true
+            items:
+                CONSUMABLE:
+                    GARLIC1: 2,1-2,0
+                    ONION1: 3,1,0
+    GRASS:
+        grass-blade:
+            coef: 2
+            disable-silk-touch: true
+            items:
+                CONSUMABLE:
+                    TOMATO1: 3,1-2,0
+                    LETTUCE1: 2,1,0
+                    GREENBELLPEPPER1: 2,1,0
+    TALL_GRASS:
+        sun-flower:
+            coef: 2
+            disable-silk-touch: true
+            items:
+                CONSUMABLE:
+                    CORN1: 5,1-2,0
+                    BLUEBERRY1: 3,1-2,0
     ANCIENT_DEBRIS:
         rare-debris:
             coef: 2
             disable-silk-touch: true
             items:
                 MATERIAL:
-                    ENCHANTEDNETHERITE: 5,1-2,0
-                    MAGIC_ESSENCE: 4,1-4,0
-                    MAGIC_FRAGMENT: 5,1-3,0
+                    ENCHANTEDNETHERITE: 12,1-2,0
+                    MAGIC_ESSENCE: 8,1-4,0
+                    MAGIC_FRAGMENT: 8,1-3,0
     CRIMSON_NYLIUM:
         rare-nylium:
             coef: 2
@@ -94,7 +119,7 @@ blocks:
             disable-silk-touch: true
             items:
                 MATERIAL:
-                    LIGHTESSENCE: 5,1-2,0
+                    LIGHTESSENCE: 7,1-2,0
     MYCELIUM:
         rare-mycelium:
             coef: 2
@@ -108,63 +133,109 @@ blocks:
             disable-silk-touch: true
             items:
                 MATERIAL:
-                    WATERESSENCE: 5,1-2,0
+                    WATERESSENCE: 11,1-3,0
     BRAIN_CORAL_BLOCK:
         rare-braincoral:
             coef: 2
             disable-silk-touch: true
             items:
                 MATERIAL:
-                    WATERESSENCE: 5,1-2,0
+                    WATERESSENCE: 11,1-3,0
     BUBBLE_CORAL_BLOCK:
         rare-bubblecoral:
             coef: 2
             disable-silk-touch: true
             items:
                 MATERIAL:
-                    WATERESSENCE: 5,1-2,0
+                    WATERESSENCE: 11,1-3,0
     FIRE_CORAL_BLOCK:
         rare-firecoral:
             coef: 2
             disable-silk-touch: true
             items:
                 MATERIAL:
-                    WATERESSENCE: 5,1-2,0
+                    WATERESSENCE: 11,1-3,0
     HORN_CORAL_BLOCK:
         rare-horncoral:
             coef: 2
             disable-silk-touch: true
             items:
                 MATERIAL:
-                    WATERESSENCE: 5,1-2,0
+                    WATERESSENCE: 11,1-3,0
     CLAY:
         rare-clay:
             coef: 2
             disable-silk-touch: true
             items:
                 MATERIAL:
-                    WATERESSENCE: 5,1-2,0                    
-    ICE:
+                    WATERESSENCE: 12,1-3,0                   
+    SNOW_BLOCK:
         rare-ice:
             coef: 2
             disable-silk-touch: true
             items:
                 MATERIAL:
-                    ICEESSENCE: 5,1-2,0
+                    ICEESSENCE: 9,1-3,0
     PACKED_ICE:
         rare-packedice:
             coef: 2
             disable-silk-touch: true
             items:
                 MATERIAL:
-                    ICEESSENCE: 5,1-2,0
+                    ICEESSENCE: 9,1-3,0
     BLUE_ICE:
         rare-blueice:
             coef: 2
             disable-silk-touch: true
             items:
                 MATERIAL:
-                    ICEESSENCE: 5,1-2,0
+                    ICEESSENCE: 9,1-3,0
+    OAK_LEAVES:
+        oak-leaves:
+            coef: 2
+            disable-silk-touch: true
+            items:
+                CONSUMABLE:
+                    ORANGE1: 5,1-2,0
+                    GRAPE1: 1,1-2,0
+    SPRUCE_LEAVES:
+        spruce-leaves:
+            coef: 2
+            disable-silk-touch: true
+            items:
+                CONSUMABLE:
+                    CHERRY1: 5,1-2,0
+                    LEMON1: 4,1-2,0
+    BIRCH_LEAVES:
+        birch-leaves:
+            coef: 2
+            disable-silk-touch: true
+            items:
+                CONSUMABLE:
+                    MANGO2: 5,1-2,0
+                    GRAPE1: 2,1-2,0
+    JUNGLE_LEAVES:
+        jungle-leaves:
+            coef: 2
+            disable-silk-touch: true
+            items:
+                CONSUMABLE:
+                    PINEAPPLE1: 5,1-3,0
+    ACACIA_LEAVES:
+        acacia-leaves:
+            coef: 2
+            disable-silk-touch: true
+            items:
+                CONSUMABLE:
+                    BLUEBERRY1: 5,1-3,0
+                    GRAPE1: 1,1-3,0
+    DARK_OAK_LEAVES:
+        darkoak-leaves:
+            coef: 2
+            disable-silk-touch: true
+            items:
+                CONSUMABLE:
+                    PLUMB1: 5,1-3,0
 # Monsters Drop Tables
 # Read when any monster dies.
 monsters:
@@ -175,7 +246,7 @@ monsters:
                 MATERIAL:
                     FIRE_ESSENCE: 4,1-2,0
                     LEGENDARY_WEAPON_ESSENCE: 2,1-3,0
-                    WEAPON_POWDER: 5,2-10,0
+                    WEAPON_POWDER: 5,1-3,0
                     ENCHANTEDNETHERITE: 2,1,0
                     MAGIC_ESSENCE: 2,1,0
     WITCH:
@@ -234,13 +305,23 @@ monsters:
                     WEAPON_POWDER: 5,2-10,0
                 CONSUMABLE:
                     SOULCRUSHER1: 1,1,0
+    DROWN:
+        drown-essence-table:
+            coef: 2
+            items:
+                MATERIAL:
+                    WATERESSENCE: 5,1-3,0
+                    THUNDERESSENCE: 2,1-2,0
+                    VERY_RARE_WEAPON_ESSENCE: 2,1-2,0
+                    MAGICAL_WEAPON_ESSENCE: 4,1,0
+                    EPIC_WEAPON_ESSENCE: 5,1-3,0
     CREEPER:
         creeper-essence-table:
             coef: 2
             items:
                 MATERIAL:
                     FIRE_ESSENCE: 2,1-3,0
-                    UNIQUE_WEAPON_ESSENCE: 2,1-2,0
+                    THUNDERESSENCE: 2,1-2,0
                     VERY_RARE_WEAPON_ESSENCE: 2,1-2,0
                     MAGICAL_WEAPON_ESSENCE: 4,1,0
                     MAGIC_FRAGMENT: 5,1-3,0
@@ -249,9 +330,9 @@ monsters:
             coef: 2
             items:
                 MATERIAL:
-                    MAGICAL_WEAPON_ESSENCE: 14,1,0
-                    UNIQUE_WEAPON_ESSENCE: 12,1-2,0
-                    WEAPON_POWDER: 15,2-10,0
+                    MAGICAL_WEAPON_ESSENCE: 9,1,0
+                    UNIQUE_WEAPON_ESSENCE: 9,1-2,0
+                    WEAPON_POWDER: 15,2-5,0
                 CONSUMABLE:
                     SOULBINDER2: 5,1,0
     ENDERMAN:
@@ -289,36 +370,36 @@ monsters:
             coef: 2
             items:
                 MATERIAL:
-                    MAGIC_ESSENCE: 12,1-3,0
+                    MAGIC_ESSENCE: 6,1-3,0
                 CONSUMABLE:
-                    SOULCRUSHER3: 8,1,0
-                    ITEMREPAIR10: 8,1-2,0
+                    SOULCRUSHER3: 1,1,0
+                    ITEMREPAIR10: 1,1-2,0
                 MISCELLANEOUS:
-                    HUMAN_SOUL: 8,1-2,0
+                    HUMAN_SOUL: 2,1-2,0
     PIGLIN_BRUTE:
         piglin-second:
             coef: 2
             items:
                 MATERIAL:
-                    MAGIC_ESSENCE: 16,1-3,0
-                    DARKNESSESSENCE: 15,1,0
+                    MAGIC_ESSENCE: 8,1-3,0
+                    DARKNESSESSENCE: 8,1,0
+                    HARDENEDGOLD: 5,1,0
                 CONSUMABLE:
-                    SOULCRUSHER3: 8,1,0
-                    ITEMREPAIR10: 8,1-2,0
+                    SOULCRUSHER3: 1,1,0
+                    ITEMREPAIR10: 1,1-2,0
                 MISCELLANEOUS:
-                    HUMAN_SOUL: 10,1-2,0
+                    HUMAN_SOUL: 5,1-2,0
     HOGLIN:
         hoglin-main:
             coef: 2
             items:
                 MATERIAL:
-                    MAGIC_ESSENCE: 14,1-2,0
-                    DARKNESSESSENCE: 16,1-2,0
+                    MAGIC_ESSENCE: 8,1-2,0
+                    DARKNESSESSENCE: 8,1-2,0
+                    HARDENEDGOLD: 6,1,0
                 CONSUMABLE:
-                    ITEMREPAIR25: 8,1-2,0
-                    SOULBINDER3: 8,1,0
-                GEM_STONE:
-                    REDGEM1: 5,1,0
+                    ITEMREPAIR25: 4,1-2,0
+                    SOULBINDER3: 4,1,0
     CHICKEN:
         chicken-main:
             coef: 2
@@ -326,7 +407,7 @@ monsters:
                 MATERIAL:
                     WINDESSENCE: 18,1-2,0
                     DARKNESSESSENCE: 8,1,0
-#    DRAGON:
+#    ENDER_DRAGON:
 #       dragon-scale-drop:
 #            coef: 2
 #            items:
