@@ -333,6 +333,7 @@ monsters:
                     MAGICAL_WEAPON_ESSENCE: 9,1,0
                     UNIQUE_WEAPON_ESSENCE: 9,1-2,0
                     WEAPON_POWDER: 15,2-5,0
+                    THUNDERESSENCE: 5,1,0
                 CONSUMABLE:
                     SOULBINDER2: 5,1,0
     ENDERMAN:
@@ -352,6 +353,7 @@ monsters:
                     MYTHICAL_WEAPON_ESSENCE: 12,1,0
                     EPIC_WEAPON_ESSENCE: 12,1-2,0
                     WINDESSENCE: 14,1-3,0
+                    THUNDERESSENCE: 8,1-2,0
                 CONSUMABLE:
                     SOULCRUSHER2: 8,1,0
                 MISCELLANEOUS:
@@ -364,6 +366,7 @@ monsters:
                     WITHER_ESSENCE: 15,1-3,0
                     LEGENDARY_WEAPON_ESSENCE: 8,1-2,0
                     DARKNESSESSENCE: 18,1,0
+                    THUNDERESSENCE: 5,1,0
                     MAGIC_ESSENCE: 12,1-3,0
     ZOMBIFIED_PIGLIN:
         piglin-main:
