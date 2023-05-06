@@ -1,137 +1,193 @@
+BLOCKS:
 
-blocks:
     EMERALD_ORE:
-
                     RARE_DIAMOND
                     SILVER_INGOT
+
     DIAMOND_ORE:
                     RARE_DIAMOND
+
     COAL_ORE:
                     SILVER_INGOT
+
     LAPIS_ORE:
                     WEAPON_POWDER
+	         INFUSEDLAPIS
+
     NETHER_GOLD_ORE:
+
                     SOULBINDER3
                     ENCHANTEDNETHERITE
                     HARDENEDGOLD
+
+    COBWEB:
+                    WINDESSENCE
+                    SILVER_COIN
+
+    NETHER_QUARTZ_ORE:
+                    WINDESSENCE
+                    WEAPON_POWDER
+                    HARDENEDGOLD
+
     REDSTONE_ORE:
                     FIRE_ESSENCE
                     WEAPON_POWDER
+
     GRASS_BLOCK:
                     GARLIC1
                     ONION1
+
     GRASS:
                     TOMATO1
                     LETTUCE1
                     GREENBELLPEPPER1
+
     TALL_GRASS:
                     CORN1
                     BLUEBERRY1
+                    STRAWBERRY
+
     ANCIENT_DEBRIS:
                     ENCHANTEDNETHERITE
                     MAGIC_ESSENCE
                     MAGIC_FRAGMENT
+
     CRIMSON_NYLIUM:
                     EARTHESSENCE
                     RARE_WEAPON_ESSENCE
                     HARDENEDGOLD
+
     GLOWSTONE:
                     LIGHTESSENCE
+
     MYCELIUM:
                     EARTHESSENCE
+
     TUBE_CORAL_BLOCK:
                     WATERESSENCE
+
     BRAIN_CORAL_BLOCK:
                     WATERESSENCE
+
     BUBBLE_CORAL_BLOCK:
                     WATERESSENCE
+
     FIRE_CORAL_BLOCK:
                     WATERESSENCE
+
     HORN_CORAL_BLOCK:
                     WATERESSENCE
+
     CLAY:
-                    WATERESSENCE                
+                    WATERESSENCE
+                 
     SNOW_BLOCK:
                     ICEESSENCE
+
     PACKED_ICE:
                     ICEESSENCE
+
     BLUE_ICE:
                     ICEESSENCE
+
     OAK_LEAVES:
                     ORANGE1
                     GRAPE1
-    SPRUCE_LEAVES:
+
+    
+
+   SPRUCE_LEAVES:
                     CHERRY1
                     LEMON1
+
     BIRCH_LEAVES:
                     MANGO2
                     GRAPE1
+
     JUNGLE_LEAVES:
                     PINEAPPLE1
+
     ACACIA_LEAVES:
                     BLUEBERRY1
                     GRAPE1
+
     DARK_OAK_LEAVES:
                     PLUMB1
 
-monsters:
+
+
+MOB DROPS:
+
+MONSTERS:
+
     BLAZE:
                     FIRE_ESSENCE
                     LEGENDARY_WEAPON_ESSENCE
                     WEAPON_POWDER
                     ENCHANTEDNETHERITE
                     MAGIC_ESSENCE
+
     WITCH:
                     UNIQUE_WEAPON_ESSENCE
                     MYTHICAL_WEAPON_ESSENCE
                     WEAPON_POWDER
                     MAGIC_ESSENCE
                     MAGICAL_WEAPON_ESSENCE
+
     SPIDER:
                     UNCOMMON_WEAPON_ESSENCE
                     RARE_WEAPON_ESSENCE
                     SILVER_INGOT
                     SILVER_COIN
+
     CAVE_SPIDER:
                     UNCOMMON_WEAPON_ESSENCE
                     VERY_RARE_WEAPON_ESSENCE
                     RARE_WEAPON_ESSENCE
                     SILVER_INGOT
+
     ZOMBIE:
                     RARE_WEAPON_ESSENCE
                     SILVER_COIN
                     HUMAN_SOUL
+
     SKELETON:
                     UNIQUE_WEAPON_ESSENCE
                     MAGIC_FRAGMENT
                     HUMAN_SOUL
+
     GUARDIAN:
                     EPIC_WEAPON_ESSENCE
                     MYTHICAL_WEAPON_ESSENCE
                     WEAPON_POWDER
                     SOULCRUSHER1
+
     DROWN:
                     WATERESSENCE
                     THUNDERESSENCE
                     VERY_RARE_WEAPON_ESSENCE
-                    MAGICAL_WEAPON_ESSENCE
-                    EPIC_WEAPON_ESSENCE
+                    MAGICAL_WEAPON_ESSENCE:
+                    EPIC_WEAPON_ESSENCE:
+
     CREEPER:
                     FIRE_ESSENCE
                     THUNDERESSENCE
                     VERY_RARE_WEAPON_ESSENCE
                     MAGICAL_WEAPON_ESSENCE
                     MAGIC_FRAGMENT
+
     SLIME:
                     MAGICAL_WEAPON_ESSENCE
                     UNIQUE_WEAPON_ESSENCE
                     WEAPON_POWDER
                     THUNDERESSENCE
                     SOULBINDER2
+
     ENDERMAN:
                     MYTHICAL_WEAPON_ESSENCE
                     EPIC_WEAPON_ESSENCE
                     SOULCRUSHER2
+
     PHANTOM:
                     MYTHICAL_WEAPON_ESSENCE
                     EPIC_WEAPON_ESSENCE
@@ -139,17 +195,20 @@ monsters:
                     THUNDERESSENCE
                     SOULCRUSHER2
                     HUMAN_SOUL
+
     WITHER_SKELETON:
                     WITHER_ESSENCE
                     LEGENDARY_WEAPON_ESSENCE
                     DARKNESSESSENCE
                     THUNDERESSENCE
                     MAGIC_ESSENCE
+
     ZOMBIFIED_PIGLIN:
                     MAGIC_ESSENCE
                     SOULCRUSHER3
                     ITEMREPAIR10
                     HUMAN_SOUL
+
     PIGLIN_BRUTE:
                     MAGIC_ESSENCE
                     DARKNESSESSENCE
@@ -157,12 +216,14 @@ monsters:
                     SOULCRUSHER3
                     ITEMREPAIR10
                     HUMAN_SOUL
+
     HOGLIN:
                     MAGIC_ESSENCE
                     DARKNESSESSENCE
                     HARDENEDGOLD
                     ITEMREPAIR25
                     SOULBINDER3
+
     CHICKEN:
                     WINDESSENCE
                     DARKNESSESSENCE
